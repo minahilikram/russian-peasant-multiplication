@@ -1,0 +1,30 @@
+V "GNAT Lib v4.9"
+A -gnatwa
+A -Wall
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_RECURSION
+
+U multiplication_io%b	multiplication_io.adb	e06a432a NE OO PK IL
+
+U multiplication_io%s	multiplication_io.ads	839c7250 EE NE OO PK IL
+
+D multiplication_io.ads	20160405202220 839c7250
+D multiplication_io.adb	20160405202214 63f6317a
+D system.ads		20141119215827 90249111
+X 1 multiplication_io.ads
+1K9*multiplication_io 9l5 9e22 2|1b14 32l5 32t22
+3I10*unsigned<long_integer> 5r40 5r64 5r81 7r43 7r74 7r91 2|3r36 3r60 3r77
+. 4r18 18r43 18r74 18r91 19r18
+5V18*recursive{3I10} 5>28 5>50 2|3b14 11s23 13s40 16l9 16t18
+5i28 multiplier{3I10} 2|3b24 6r13 8r16 10r17 10r39 11r34 12r17 12r39 13r51
+5i50 multiplicand{3I10} 2|3b46 9r23 11r50 13r24 13r67
+7V14*iterative{3I10} 7=24 7=53 2|18b14 30l9 30t18
+7i24 multiplier{3I10} 2|18b24 21r16 22r18 25m13 25r27
+7i53 multiplicand{3I10} 2|18b53 23r28 26m13 26r29
+X 2 multiplication_io.adb
+4i9 answer{1|3I10} 7m13 9m13 11m13 13m13 15r16
+19i9 answer{1|3I10} 23m17 23r43 29r16
+
