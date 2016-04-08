@@ -17,7 +17,8 @@ $ git clone https://github.com/minahilikram/russian-peasant-multiplication
 
 ```sh
 $ cd russian-peasant-multiplication/
-$ make (compiles all programs)
+# (compiles all programs)
+$ make
 $ make run-implementation-* (replace * with the name of the lanaguage to run)
 ```
 
